@@ -5,14 +5,14 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "default" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN" # "en-US"
-title                    : "实战学习Python"
+title                    : "白月黑羽教Python"
 title_separator          : "-"
-name                     : "拜月童子"
-description              : "实战学习Python，每天都有进步"
+name                     : "白月黑羽"
+description              : "python教程,python基础,python入门,python自学,python练习,python论坛"
 url                      : "http://www.python3.vip" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "baiyuetong/baiyuetong.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : false # true, false (default)
 search_full_content      : # true, false (default)
 
 # SEO Related
@@ -75,22 +75,22 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
+# AnalyticsAnalytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-115662710-1"
 
 
 # Site Author
 author:
-  name             : "拜月童子"
+  name             : "白月黑羽"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Python十年老司机"
+  bio              : "新手学Python"
   location         : "杭州"
   email            :
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  home             : "www.python3.vip"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -114,6 +114,7 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  qq               : 345563443
 
 
 # Reading Files
@@ -255,10 +256,9 @@ defaults:
 #      share: true
 #      related: true
 
-  # _posts
   - scope:
-      path: "prac/python"
-      type: posts
+      path: "doc/prac/python"
+      type: pages
     values:
       layout: single
       author_profile: false
@@ -267,4 +267,39 @@ defaults:
 #      comments: # true
 #      share: true
 #      related: true
+      read_time: false
+
+
+
+  - scope:
+      path: "doc/tutorial"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      author_profile: false
+      read_time: false
+      sidebar:
+        nav: "pythontutor"
+
+
+
+  - scope:
+      path: "doc/faq"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      author_profile: false
+      read_time: false
+
+      
+
+  - scope:
+      path: "doc/blog"
+      type: pages
+    values:
+      layout: single
+      toc: false
+      author_profile: false
       read_time: false

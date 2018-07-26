@@ -1,0 +1,198 @@
+# main links
+main:
+  - title: "教程"
+    url: /doc/tutorial/python/home/
+  - title: "练习"
+    url: /doc/prac/python/0001/
+  - title: "交流"
+    url: /doc/aboutforum/
+  - title: "常见问题"
+    url: /doc/faq/python/home/
+  - title: "独家文章"
+    url: /doc/blog/python/home/
+
+
+pythonprac:
+  
+  - title: 基础练习
+    children:
+      - title: "安装与运行"
+        url: /doc/prac/python/0001/
+      - title: "数字运算"
+        url: /doc/prac/python/0002/
+      - title: "字符串"
+        url: /doc/prac/python/0004/
+      - title: "函数"
+        url: /doc/prac/python/0005/
+      - title: "元组和列表"
+        url: /doc/prac/python/0007/
+      - title: "判断语句"
+        url: /doc/prac/python/0008/
+      - title: "对象的方法"
+        url: /doc/prac/python/0009/
+      - title: "字符串格式化"
+        url: /doc/prac/python/0010/
+      - title: "循环"
+        url: /doc/prac/python/0011/
+      - title: "文件读写"
+        url: /doc/prac/python/0013/
+      - title: "使用库"
+        url: /doc/prac/python/0014/
+      - title: "字典"
+        url: /doc/prac/python/0017/
+      - title: "自定义类"
+        url: /doc/prac/python/0018/
+      - title: "菱形字母表"
+        url: /doc/prac/python/0101/
+
+  - title: 提高练习
+    children:
+      - title: "调用其它程序"
+        url: /doc/prac/python/1001/
+      - title: "多线程"
+        url: /doc/prac/python/1002/
+      - title: "requests和json"
+        url: /doc/prac/python/2002/
+      - title: "图形界面"
+        url: /doc/prac/python/2003/
+      - title: "分析目录中所有的文件"
+        url: /doc/prac/python/3001/
+      - title: "自动购买高铁票"
+        url: /doc/prac/python/3002/
+      - title: "自动群发邮件"
+        url: /doc/prac/python/3003/
+
+  # - title: 扩展练习
+  #   children:
+  #     - title: "正则表达式"
+  #       url: /docs/layouts/
+  #     - title: "多进程"
+  #       url: /docs/pages/
+
+  # - title: 其它
+  #   children:
+  #     - title: "Stylesheets"
+  #       url: /docs/stylesheets/
+  #     - title: "JavaScript"
+  #       url: /docs/javascript/
+
+
+pythontutor:
+  # - title: 前言
+  #   url:  /doc/tutorial/python/home/
+
+
+  - title: 基础
+    children:
+      - title: "安装与运行"
+        url:  /doc/tutorial/python/0001/
+      - title: "对象的概念、数字对象"
+        url:  /doc/tutorial/python/0002/
+      - title: "变量和注释"
+        url:  /doc/tutorial/python/0003/
+      - title: "字符串"
+        url:  /doc/tutorial/python/0004/
+      - title: "函数"
+        url:  /doc/tutorial/python/0005/
+      - title: "用户输入"
+        url:  /doc/tutorial/python/0006/
+      - title: "列表、元组"
+        url:  /doc/tutorial/python/0007/
+      - title: "判断语句"
+        url:  /doc/tutorial/python/0008/
+      - title: "对象的方法"
+        url:  /doc/tutorial/python/0009/
+      - title: "格式化字符串"
+        url:  /doc/tutorial/python/0010/
+      - title: "循环"
+        url:  /doc/tutorial/python/0011/
+      - title: "字符编码"
+        url:  /doc/tutorial/python/0012/
+      - title: "文件操作"
+        url:  /doc/tutorial/python/0013/
+      - title: "模块和库"
+        url:  /doc/tutorial/python/0014/
+      - title: "使用IDE"
+        url:  /doc/tutorial/python/0015/
+      - title: "调试程序"
+        url:  /doc/tutorial/python/0016/
+      - title: "字典"
+        url:  /doc/tutorial/python/0017/
+      - title: "自定义类"
+        url:  /doc/tutorial/python/0018/
+      - title: "异常"
+        url:  /doc/tutorial/python/0019/
+      - title: "使用函数注意点"
+        url:  /doc/tutorial/python/0020/
+      - title: "在线运行python"
+        url: /doc/tutorial/python/onlinepython/
+
+  - title: 提高 
+    children:
+      - title: "调用其他程序"
+        url:  /doc/tutorial/python/1001/
+      - title: "多线程"
+        url:  /doc/tutorial/python/1002/
+      - title: "装饰器"
+        url:  /doc/tutorial/python/1003/
+      - title: "json"
+        url:  /doc/tutorial/python/2001/
+      - title: "Requests库"
+        url:  /doc/tutorial/python/2002/
+      - title: "wxpython图形界面"
+        url:  /doc/tutorial/python/2003/
+      - title: "数据库访问"
+        url:  /doc/tutorial/python/2004/
+      - title: "Excel 读写"
+        url:  /doc/tutorial/python/excel/
+      - title: "Web自动化- 原理"
+        url:  /doc/tutorial/python/2005_1/
+      - title: "Web自动化- 选择元素 1"
+        url:  /doc/tutorial/python/2005_2/
+      - title: "Web自动化- 选择元素 2"
+        url:  /doc/tutorial/python/2005_3/
+      - title: "pygame- 简介"
+        url:  /doc/tutorial/python/game1/
+      - title: "pygame- 提高"
+        url:  /doc/tutorial/python/game2/
+      - title: "制作成可执行文件"
+        url: /doc/tutorial/python/toexe/
+
+        
+  - title: web开发 
+    children:
+      - title: "Django Web 开发简介"
+        url:  /doc/tutorial/django/01/
+      - title: "安装与运行"
+        url:  /doc/tutorial/django/02/
+      - title: "HTTP请求的url路由"
+        url:  /doc/tutorial/django/03/
+      - title: "创建数据库和表"
+        url:  /doc/tutorial/django/04/
+      - title: "读取数据库数据"
+        url:  /doc/tutorial/django/05/
+      - title: "前端界面 与 前后端分离架构"
+        url:  /doc/tutorial/django/06/
+      - title: "实现登录功能"
+        url:  /doc/tutorial/django/07/
+      - title: "资源的增查改删"
+        url:  /doc/tutorial/django/08/
+      - title: "session 和 token"
+        url:  /doc/tutorial/django/09/
+      - title: "数据库表的关联"
+        url:  /doc/tutorial/django/10/
+  # - title: 扩展 - 元婴期
+  #   children:
+  #     - title: "正则表达式"
+  #       url:  /doc/tutorial/python/2001/
+
+
+faq:
+  - title: Python语言
+    url:  /doc/faq/python/
+  - title: 自动化
+    url:  /doc/faq/automation/
+  - title: web开发
+    url:  /doc/faq/web/
+  - title: 人工智能
+    url:  /doc/faq/web/
