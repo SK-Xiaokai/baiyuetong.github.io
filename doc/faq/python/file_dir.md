@@ -32,6 +32,76 @@ f.write('白月黑羽：祝大家好运气')
 f.close()
 ```
 
+## 对文件路径名的操作
+
+对于文件名的操作，比如 获取文件名称，文件所在目录，文件路径的拼接等，都可以使用 os.path 模块。
+
+不要使用格式化字符串的方法来做，特别是如果你的程序需要在Linux、Windows等多个平台运行的时候更应如此。
+
+而 os.path 模块知道Unix和Windows系统之间的差异，它能够可靠地处理类似 Data/data.csv 和 Data\data.csv 这样的文件路径差异。
+
+比如：
+
+```py
+>>> import os
+>>> path = '/Users/beazley/Data/data.csv'
+
+>>> # 获取路径中的文件名部分
+>>> os.path.basename(path)
+'data.csv'
+
+>>> # 获取路径中的目录部分
+>>> os.path.dirname(path)
+'/Users/beazley/Data'
+
+>>> # 文件路径的拼接
+>>> os.path.join('tmp', 'data', os.path.basename(path))
+'tmp/data/data.csv'
+
+```
+
+
+## 判断文件、目录是否存在
+
+使用下面的方法来判断文件或者目录是否存在
+```py
+import os
+os.path.exists('d:/systems/cmd.exe')
+os.path.exists('d:/systems')
+```
+
+<br>
+
+如果你要判断指定路径是否是文件，可以这样
+
+```py
+import os
+os.path.isfile('d:/systems/cmd.exe')
+```
+
+<br>
+
+如果你要判断指定路径是否是目录，可以这样
+
+```py
+import os
+os.path.isdir('d:/systems')
+```
+
+
+## 获取文件的大小和日期
+
+```py
+>>> os.path.getsize('/etc/passwd')
+3669
+>>> os.path.getmtime('/etc/passwd')
+1272478234.0
+>>> import time
+>>> time.ctime(os.path.getmtime('/etc/passwd'))
+'Wed Apr 28 13:10:34 2010'
+>>>
+```
+
 
 ## 递归的遍历目录下面所有的文件
 

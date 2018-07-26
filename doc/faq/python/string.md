@@ -3,7 +3,7 @@ title: 字符串操作
 toc: true
 ---
 
-## 字符 和 对应unicode数字 的转换
+## unicode数字转换为字符
 
 把 unicode数字转换为字符， 使用chr(), 比如：
 
@@ -15,6 +15,7 @@ toc: true
 ```
 
 
+## 字符转换为unicode数字
 
 反过来，要把 字符转换为对应的unicode数字，使用 ord()
 该函数参数字符串里面只能有一个字符
@@ -36,9 +37,44 @@ toc: true
 
 
 
+
+##  将字符串切割为多个字符串
+
+[请点击这里，参考我们教程](/doc/tutorial/python/0009/#split)
+
+
+
+
+##  使用正则表达式切割字符串
+
+字符串 对象的 split() 方法只适应于非常简单的字符串分割情形。当你需要更加灵活的切割字符串的时候，就不好用了。
+
+比如，下面字符串中包含的名字， 有的是分号隔开 ，有的是逗号隔开，有的是空格隔开， 而且分割符号周围还有不定数量的空格
+```py
+names = '关羽; 张飞, 赵云,马超, 黄忠  李逵'
+```
+
+这时，最好使用 re.split() 方法：
+
+```py
+import re
+
+names = '关羽; 张飞, 赵云,   马超, 黄忠  李逵'
+
+namelist = re.split(r'[;,\s]\s*', names)
+print(namelist)
+```
+
+正则表达式 ```[;,\s]\s*``` 指定了，分割符为 分号、逗号、空格 里面的任意一种均可，并且 该符号周围可以有不定数量的空格。
+
+
+
+
+
+
 ##  使用split函数从字符串中提取内容
 
-比如：从下面格式的字符串中提取出添加成功用户对应的UID号
+比如：从下面格式的字符串中提取出 UID号
 
 ```
 添加用户 byhy(UID 5533)成功
@@ -55,7 +91,7 @@ print(f'uid is :{uid}')
 ##  使用正则表达式从字符串中提取内容
 
 使用正则表达，可以从多种可能格式的字符串中，提取我们想要的内容
-比如，我们想要从下面这几种可能格式的字符串中提取 用户对于的UID号
+比如，我们想要从下面这几种可能格式的字符串中提取 用户对应的UID号
 
 ```
 添加用户 byhy(UID 5533)成功
@@ -79,5 +115,66 @@ uid =  re.findall(r'\(UID\W*(\d*)\)', content)[0]
 https://docs.python.org/3/library/re.html
 
 
+
+
+
+
+##  将列表中的字符串元素合并为一个字符串
+
+[请点击这里，参考我们教程](/doc/tutorial/python/0009/#join)
+
+
+
+##  字符串替换时忽略大小写
+
+如果我们要替换字符串的时候， 不管大小写都需要替换，就可以使用 re 模块的sub函数
+
+比如：
+
+```py
+import re
+
+text = 'UPPER PYTHON, lower python, Mixed Python'
+
+print(re.sub('python', 'snake', text, flags=re.IGNORECASE))
+```
+
+
+
+##  字符串的格式化
+
+
+[请点击这里，参考我们教程](/doc/tutorial/python/0010/)
+
+
+## json格式字符串处理
+
+我们如果需要将一个json格式的字符串转换为 Python中的对象进行处理，可以这样
+
+```py
+jsonStr = '''{
+    "account1": 13, 
+    "account2": 12, 
+    "account3": 15}
+'''
+
+import json
+membersObj = json.loads(jsonStr)
+```
+
+<br>
+
+反之，可以这样将一个Python中的对象转换为 一个 json格式的字符串
+
+```py
+members = {
+    'account1'  : 13 ,
+    'account2'  : 12 ,
+    'account3'  : 15 ,
+}
+
+import json
+jsonStr = json.dumps(members)
+```
 
 {% include sharepost.html %}

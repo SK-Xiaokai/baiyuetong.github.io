@@ -36,7 +36,7 @@ xlrd 库里面的 open_workbook 打开Excel文件，并且返回一个Book对象
 
 <br>
 
-我们就可以用如下，读取 该文件中表单的数量和名称：
+我们就可以用如下代码，读取 该文件中表单的数量和名称：
 
 ```py
 import xlrd

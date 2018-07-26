@@ -19,6 +19,10 @@ toc: true
 
 [合并2个字典](/doc/faq/python/basic/#%E5%90%88%E5%B9%B62%E4%B8%AA%E5%AD%97%E5%85%B8)
 
+[从列表中过滤元素](/doc/faq/python/basic/#%E4%BB%8E%E5%88%97%E8%A1%A8%E4%B8%AD%E8%BF%87%E6%BB%A4%E5%85%83%E7%B4%A0)
+
+[从字典中过滤元素](/doc/faq/python/basic/#%E4%BB%8E%E5%AD%97%E5%85%B8%E4%B8%AD%E8%BF%87%E6%BB%A4%E5%85%83%E7%B4%A0)
+
 [产生随机数](/doc/faq/python/basic/#%E4%BA%A7%E7%94%9F%E9%9A%8F%E6%9C%BA%E6%95%B0)
 
 [产生随机字符串](/doc/faq/python/basic/#%E4%BA%A7%E7%94%9F%E9%9A%8F%E6%9C%BA%E5%AD%97%E7%AC%A6%E4%B8%B2)
@@ -27,21 +31,39 @@ toc: true
 
 <h2 id="字符串"><a href="../string/" target="_blank" style="text-decoration:none">字符串</a></h2>
 
-[字符 和 对应UNICODE数字 的转换](/doc/faq/python/string/#%E5%AD%97%E7%AC%A6-%E5%92%8C-%E5%AF%B9%E5%BA%94unicode%E6%95%B0%E5%AD%97-%E7%9A%84%E8%BD%AC%E6%8D%A2)
+[UNICODE数字转换为字符](/doc/faq/python/string/#unicode%E6%95%B0%E5%AD%97%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%AD%97%E7%AC%A6)
+
+[字符转换为UNICODE数字](/doc/faq/python/string/#%E5%AD%97%E7%AC%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAunicode%E6%95%B0%E5%AD%97)
+
+[将字符串切割为多个字符串](/doc/faq/python/string/#%E5%B0%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%88%87%E5%89%B2%E4%B8%BA%E5%A4%9A%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2)
+
+[使用正则表达式切割字符串](/doc/faq/python/string/#%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%88%87%E5%89%B2%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
 [使用SPLIT函数从字符串中提取内容](/doc/faq/python/string/#%E4%BD%BF%E7%94%A8split%E5%87%BD%E6%95%B0%E4%BB%8E%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%8F%90%E5%8F%96%E5%86%85%E5%AE%B9)
 
 [使用正则表达式从字符串中提取内容](/doc/faq/python/string/#%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%BB%8E%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%8F%90%E5%8F%96%E5%86%85%E5%AE%B9)
 
+[将列表中的字符串元素合并为一个字符串](/doc/faq/python/string/#%E5%B0%86%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%85%83%E7%B4%A0%E5%90%88%E5%B9%B6%E4%B8%BA%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2)
+
+[字符串替换时忽略大小写](/doc/faq/python/string/#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9B%BF%E6%8D%A2%E6%97%B6%E5%BF%BD%E7%95%A5%E5%A4%A7%E5%B0%8F%E5%86%99)
+
+[字符串的格式化](/doc/faq/python/string/#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A0%BC%E5%BC%8F%E5%8C%96)
+
+[JSON格式字符串处理](/doc/faq/python/string/#json%E6%A0%BC%E5%BC%8F%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86)
+
 
 
 <h2 id="文件和目录"><a href="../file_dir/" target="_blank" style="text-decoration:none">文件和目录</a></h2>
 
-
-
 [读取某种编码格式的文件内容](/doc/faq/python/file_dir/#%E8%AF%BB%E5%8F%96%E6%9F%90%E7%A7%8D%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9)
 
 [以指定UTF8编码格式写文件](/doc/faq/python/file_dir/#%E4%BB%A5%E6%8C%87%E5%AE%9Autf8%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%86%99%E6%96%87%E4%BB%B6)
+
+[对文件路径名的操作](/doc/faq/python/file_dir/#%E5%AF%B9%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%90%8D%E7%9A%84%E6%93%8D%E4%BD%9C)
+
+[判断文件、目录是否存在](/doc/faq/python/file_dir/#%E5%88%A4%E6%96%AD%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8)
+
+[获取文件的大小和日期](/doc/faq/python/file_dir/#%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%92%8C%E6%97%A5%E6%9C%9F)
 
 [递归的遍历目录下面所有的文件](/doc/faq/python/file_dir/#%E9%80%92%E5%BD%92%E7%9A%84%E9%81%8D%E5%8E%86%E7%9B%AE%E5%BD%95%E4%B8%8B%E9%9D%A2%E6%89%80%E6%9C%89%E7%9A%84%E6%96%87%E4%BB%B6)
 
