@@ -99,3 +99,14 @@ toc: true
 [调用其它程序，并且获取输出结果](/doc/faq/python/process_thread/#%E8%B0%83%E7%94%A8%E5%85%B6%E5%AE%83%E7%A8%8B%E5%BA%8F%E5%B9%B6%E4%B8%94%E8%8E%B7%E5%8F%96%E8%BE%93%E5%87%BA%E7%BB%93%E6%9E%9C)
 
 [非阻塞式调用其它程序](/doc/faq/python/process_thread/#%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%BC%8F%E8%B0%83%E7%94%A8%E5%85%B6%E5%AE%83%E7%A8%8B%E5%BA%8F)
+
+
+
+<h2 id="类和对象"><a href="../class/" target="_blank" style="text-decoration:none">类和对象</a></h2>
+
+[PRINT自定义对象](/doc/faq/python/class/#print%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AF%B9%E8%B1%A1)
+
+[定义PROPERTY 属性](/doc/faq/python/class/#%E5%AE%9A%E4%B9%89property-%E5%B1%9E%E6%80%A7)
+
+[子类中调用父类的方法](/doc/faq/python/class/#%E5%AD%90%E7%B1%BB%E4%B8%AD%E8%B0%83%E7%94%A8%E7%88%B6%E7%B1%BB%E7%9A%84%E6%96%B9%E6%B3%95)
+
