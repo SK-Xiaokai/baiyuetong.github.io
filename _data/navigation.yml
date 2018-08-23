@@ -145,6 +145,8 @@ pythontutor:
         url:  /doc/tutorial/python/2004/
       - title: "Excel 读写"
         url:  /doc/tutorial/python/excel/
+      - title: "制作可执行文件"
+        url: /doc/tutorial/python/toexe/
       - title: "Web自动化- 原理"
         url:  /doc/tutorial/python/2005_1/
       - title: "Web自动化- 选择元素 1"
@@ -155,8 +157,6 @@ pythontutor:
         url:  /doc/tutorial/python/game1/
       - title: "pygame- 提高"
         url:  /doc/tutorial/python/game2/
-      - title: "制作成可执行文件"
-        url: /doc/tutorial/python/toexe/
 
         
   - title: web开发 
