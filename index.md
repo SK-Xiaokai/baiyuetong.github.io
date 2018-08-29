@@ -19,6 +19,8 @@ Python编程语言 是 从业者、大学生、中学生 都适合的编程语�
 
 本网站 图文、视频、练习、答疑 多方结合， 让您快速掌握Python编程。
 
+别孤单的一个人学习，喊上身边的小伙伴一起学习，互相交流，这样效果才更好哦。
+
 
 ![QQ群](/assets/images/qqgroup2.png){: .align-left :height="220px" width="220px"}
 

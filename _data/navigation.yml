@@ -147,17 +147,21 @@ pythontutor:
         url:  /doc/tutorial/python/excel/
       - title: "制作可执行文件"
         url: /doc/tutorial/python/toexe/
-      - title: "Web自动化- 原理"
-        url:  /doc/tutorial/python/2005_1/
-      - title: "Web自动化- 选择元素 1"
-        url:  /doc/tutorial/python/2005_2/
-      - title: "Web自动化- 选择元素 2"
-        url:  /doc/tutorial/python/2005_3/
       - title: "pygame- 简介"
         url:  /doc/tutorial/python/game1/
       - title: "pygame- 提高"
         url:  /doc/tutorial/python/game2/
 
+  - title: 基于Selenium的web自动化
+    children:
+      - title: "Web自动原理"
+        url:  /doc/tutorial/selenium/01/
+      - title: "选择元素- 1"
+        url:  /doc/tutorial/selenium/02/
+      - title: "选择元素- 2"
+        url:  /doc/tutorial/selenium/03/
+      - title: "一些技巧"
+        url:  /doc/tutorial/selenium/04/
         
   - title: web开发 
     children:
