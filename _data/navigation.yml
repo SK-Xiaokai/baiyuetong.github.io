@@ -152,9 +152,9 @@ pythontutor:
       - title: "pygame- 提高"
         url:  /doc/tutorial/python/game2/
 
-  - title: 基于Selenium的web自动化
+  - title: web自动化
     children:
-      - title: "Web自动原理"
+      - title: "原理与安装"
         url:  /doc/tutorial/selenium/01/
       - title: "选择元素- 1"
         url:  /doc/tutorial/selenium/02/
