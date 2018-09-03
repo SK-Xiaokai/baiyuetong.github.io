@@ -160,8 +160,10 @@ pythontutor:
         url:  /doc/tutorial/selenium/02/
       - title: "选择元素- 2"
         url:  /doc/tutorial/selenium/03/
-      - title: "一些技巧"
+      - title: "切换到 frame 或者 新窗口"
         url:  /doc/tutorial/selenium/04/
+      - title: "实用技巧"
+        url:  /doc/tutorial/selenium/tips/
         
   - title: web开发 
     children:

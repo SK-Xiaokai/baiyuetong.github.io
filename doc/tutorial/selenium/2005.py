@@ -4,7 +4,7 @@ from selenium import webdriver
 driver = webdriver.Chrome(r'd:\webdrivers\chromedriver.exe')
 
 # WebDriver 实例对象的get方法 可以让浏览器打开指定网址
-driver.get('http://www.python3.vip/doc/tutorial/python/code/sample1.html')
+driver.get('http://www.python3.vip/doc/tutorial/selenium/code/sample1.html')
 
 # 根据 tag name 选择元素，返回的是 一个列表
 # 里面 都是 tag 名为 div 的元素对应的 WebElement对象
@@ -15,6 +15,3 @@ elements = driver.find_element_by_css_selector('#searchtext')
 for element in elements:
     print(element.text)
 
-
-
-{% include sharepost.html %}

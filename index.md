@@ -3,7 +3,7 @@ layout: splash
 # author_profile: true
 
 title: python教程
-overlay_title: 图文+视频，零基础也能学Python
+overlay_title: 图文+视频，你也能学好Python
 excerpt: "QQ扫描下方二维码，加群交流"
 header:
 #   overlay_image: /assets/images/moon.jpg
