@@ -13,7 +13,7 @@ toc: false
 
 运行结果会显示在下面，如下图所示
 
-![image](https://user-images.githubusercontent.com/36462795/39873496-ae748a44-549d-11e8-9b44-372b75a8ad18.png)
+![白月黑羽Python3教程](https://user-images.githubusercontent.com/36462795/39873496-ae748a44-549d-11e8-9b44-372b75a8ad18.png)
 
 
 

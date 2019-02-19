@@ -93,7 +93,7 @@ pyinstaller byhy.py --workpath d:\pybuild  --distpath d:\pybuild\dist
 
 如下图所示
 
-![image](https://user-images.githubusercontent.com/36257654/42426250-1f2e1f5e-8359-11e8-98b0-036a5c5b5b5f.png)
+![白月黑羽Python3教程](https://user-images.githubusercontent.com/36257654/42426250-1f2e1f5e-8359-11e8-98b0-036a5c5b5b5f.png)
 
 双击运行它，就可以发现效果和我们在命令行中运行一样。
 

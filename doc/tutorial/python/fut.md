@@ -9,7 +9,7 @@ toc: false
 
 点击这里下载 
 
-![image](https://user-images.githubusercontent.com/36257654/36189427-54b944fc-118d-11e8-9bd7-a14afbb04a2c.png)
+![白月黑羽Python3教程](https://user-images.githubusercontent.com/36257654/36189427-54b944fc-118d-11e8-9bd7-a14afbb04a2c.png)
 
 
 <br><br>
@@ -25,7 +25,7 @@ Pycharm 是 一款非常棒的 Python语言项目的 IDE (集成开发环境) �
 
 如下图所示，选择社区版。
 
-![image](https://user-images.githubusercontent.com/36462795/36413121-fa945c26-1657-11e8-8c9c-33c5ea6fad75.png)
+![白月黑羽Python3教程](https://user-images.githubusercontent.com/36462795/36413121-fa945c26-1657-11e8-8c9c-33c5ea6fad75.png)
 
 
 
@@ -64,7 +64,7 @@ Appium Desktop 安装地址： https://github.com/appium/appium-desktop/releases
 
 其中 Windows下的安装包是扩展名为.exe的，如下图所示
 
-![image](https://user-images.githubusercontent.com/36257654/38421086-9510a428-39d8-11e8-98ea-567daecc547b.png)
+![白月黑羽Python3教程](https://user-images.githubusercontent.com/36257654/38421086-9510a428-39d8-11e8-98ea-567daecc547b.png)
 
 
 

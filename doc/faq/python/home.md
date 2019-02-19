@@ -27,7 +27,19 @@ toc: true
 
 [产生随机字符串](/doc/faq/python/basic/#%E4%BA%A7%E7%94%9F%E9%9A%8F%E6%9C%BA%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
+[‘/’和‘//’的区别](http://www.python3.vip/doc/faq/python/basic/#和的区别)
 
+[单引号，双引号，三引号的区别](http://www.python3.vip/doc/faq/python/basic/#单引号双引号三引号的区别)
+
+[删除列表元素的方法](http://www.python3.vip/doc/faq/python/basic/#删除列表元素)
+
+[列表排序sort和sorted](http://www.python3.vip/doc/faq/python/basic/#列表排序sort和sorted)
+
+[复制列表](http://www.python3.vip/doc/faq/python/basic/#复制列表)
+
+[列表去重](http://www.python3.vip/doc/faq/python/basic/#列表去重)
+
+[is和==](http://www.python3.vip/doc/faq/python/basic/#isVS==)
 
 <h2 id="字符串"><a href="../string/" target="_blank" style="text-decoration:none">字符串</a></h2>
 
@@ -110,3 +122,8 @@ toc: true
 
 [子类中调用父类的方法](/doc/faq/python/class/#%E5%AD%90%E7%B1%BB%E4%B8%AD%E8%B0%83%E7%94%A8%E7%88%B6%E7%B1%BB%E7%9A%84%E6%96%B9%E6%B3%95)
 
+
+
+<h2 id="其他"><a href="../others/" target="_blank" style="text-decoration:none">其他</a></h2>
+
+[运行python程序](/doc/faq/python/others/#运行python程序)

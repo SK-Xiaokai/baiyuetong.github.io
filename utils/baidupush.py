@@ -5,7 +5,7 @@ import requests
 urls = [
     
 "http://www.python3.vip/",
-"http://www.python3.vip/doc/tutorial/python/home/",
+"http://www.python3.vip/doc/tutorial/python/0001/",
 
 # "http://www.python3.vip/doc/tutorial/python/2004/",
 ]

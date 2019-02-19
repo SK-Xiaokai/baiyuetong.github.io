@@ -21,7 +21,9 @@ https://docs.python.org/3/library/time.html#time.time
 
 ## 指定格式字符串显示时间
 
-可以这样
+以指定格式字符串显示时间，是非常常用的，比如日志里面的时间戳。
+
+可以这样实现：
 
 ```py
 from datetime import datetime
@@ -92,10 +94,13 @@ datetime.datetime(2018, 6, 30, 23, 3, 54, 238947)
 
 ## 获得指定日期对应星期几
 
-thatDay = "2018-6-24"
 ```py
+# 要计算出 2018年6月24日 是星期几 
+thatDay = "2018-6-24"
 from datetime import datetime,timedelta
+# 先把字符串表示的日期转化为 date 对象
 theDay = datetime.strptime(thatDay, "%Y-%m-%d").date()
+#再获取星期几
 theDay.weekday()   # 0 代表星期1
 ```
 

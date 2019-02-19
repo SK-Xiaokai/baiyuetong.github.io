@@ -185,7 +185,7 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: #06436d;  /*$masthead-link-color*/
+    color: #0079aa;  /*$masthead-link-color*/
     text-decoration: none;
 
     &:hover {
@@ -325,7 +325,7 @@
 
 .nav__list {
   margin-bottom: 1.5em;
-  color:#330202;
+  color:#0079aa;
 
   input[type="checkbox"],
   label {
@@ -513,19 +513,20 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: 0.8rem;
+  font-size: $type-size-5f;
 
   a {
     display: block;
     padding: 0.5rem 1rem;
     color: $muted-text-color;
-    font-size: $type-size-5;
+    font-size: $type-size-5f;
     // font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
     &:hover {
       color: $text-color;
+      text-decoration: none
     }
   }
 

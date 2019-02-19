@@ -12,7 +12,7 @@ locale                   : "zh-CN" # "en-US"
 title                    : "白月黑羽教Python"
 title_separator          : "-"
 name                     : "白月黑羽"
-description              : "python教程,python基础,python入门,python自学,python练习,python论坛"
+description              : "白月黑羽专注Python及web开发相关知识传播和学习，提供原创中文精品教程，白月黑羽Python3教程是有多位资深从业大咖专门为职场新人精心准备的Python入门教程，学Python、web开发，就从白月黑羽准备Python3教程开始！"
 url                      : "http://www.python3.vip" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "baiyuetong/baiyuetong.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -160,7 +160,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: false
+incremental: true # 增量生成文档
 
 
 # Markdown Processing
@@ -173,6 +173,10 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
 
 # Sass/SCSS
@@ -270,9 +274,20 @@ defaults:
       read_time: false
 
 
+  - scope:
+      path: "doc/tutorial/django"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      author_profile: false
+      read_time: false
+      sidebar:
+        nav: "webDev"
+
 
   - scope:
-      path: "doc/tutorial"
+      path: "doc/tutorial/python"
       type: pages
     values:
       layout: single
@@ -281,6 +296,17 @@ defaults:
       read_time: false
       sidebar:
         nav: "pythontutor"
+
+  - scope:
+      path: "doc/tutorial/selenium"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      author_profile: false
+      read_time: false
+      sidebar:
+        nav: "seleniumtutor"
 
 
 

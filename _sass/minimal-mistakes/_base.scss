@@ -166,11 +166,13 @@ a > code,
 li > code,
 figcaption > code,
 td > code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  font-size: $type-size-6;
-  background: $code-background-color;
+  padding-top: 0.05rem;
+  // padding-bottom: 0.1rem;
+  // font-size: $type-size-6;
+  background: #418252;
+  color: white;
   border-radius: $border-radius;
+  // font-family: "Ubuntu";
 
   &:before,
   &:after {

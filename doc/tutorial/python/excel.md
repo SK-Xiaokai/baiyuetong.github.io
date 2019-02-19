@@ -32,7 +32,7 @@ xlrd 库里面的 open_workbook 打开Excel文件，并且返回一个Book对象
 
 这个文件里面有 3 个表单，分别记录了2018、2017、2016年 的月收入，如下所示
 
-![image](https://user-images.githubusercontent.com/36257654/41497394-06e179e8-7187-11e8-9413-fc6445ac4b51.png)
+![白月黑羽Python3教程](https://user-images.githubusercontent.com/36257654/41497394-06e179e8-7187-11e8-9413-fc6445ac4b51.png)
 
 <br>
 

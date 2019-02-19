@@ -12,11 +12,12 @@ figure.highlight {
   font-size: $type-size-6;
   line-height: 1.8;
   border-radius: $border-radius;
+  border: 1px solid #ebebeb;
 
   > pre,
   pre.highlight {
     margin: 0;
-    padding: 1em;
+    padding: 0 .5em;
   }
 }
 
@@ -33,17 +34,18 @@ figure.highlight {
     /* line numbers*/
     &.gutter,
     &.rouge-gutter {
-      padding-right: 1em;
-      width: 1em;
-      color: $base04;
-      border-right: 1px solid $base04;
-      text-align: right;
+      // padding-right: .2em;
+      width: 1.2em;
+      color: #a0b1b8;
+      border-right: 1px solid #bac7d1;
+      text-align: left;
+      background: #fbfaec;
     }
 
     /* code */
     &.code,
     &.rouge-code {
-      padding-left: 1em;
+      padding-left: .7em;
     }
   }
 
